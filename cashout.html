@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Refresh Home Page </title>
+    <link rel="stylesheet" href="cashout.css">
+
+</head>
+
+<body>
+    <audio id="myAudio" autoplay loop>
+        <source src="QiShui.mp3">
+    </audio>
+
+    <header>
+        <a href="refresh.html"> <img src="REFRESH_LOGO-removebg.png" alt="Refresh Logo" class="top-image"> </a>
+    </header>
+    <nav>
+        <strong> <a href="common.html"> COMMON &nbsp; </a> </strong>
+        <strong> <a href="vegetarian.html"> VEGETARIAN &nbsp;</a> </strong>
+        <strong> <a href="kpop.html"> KPOP &nbsp; </a> </strong>
+        <strong> <a href="jpop.html"> JPOP &nbsp; </a> </strong>
+        <strong> <a href="gamer.html"> GAMER &nbsp; </a> </strong>
+        <strong> <a href="rapper.html"> RAPPER &nbsp; </a> </strong>
+    </nav>
+
+    <main>
+        <h1> Please Fill Out The Form </h1>
+
+        <div class="gif">
+            <div id="gif1">
+                <img src="formGIF.gif" alt="Fill Out The Form GIF">
+            </div>
+
+            <div id="gif2">
+                <img src="almostDone.gif" alt="Almost Done GIF">
+            </div>
+        </div>
+
+
+        <form id="myForm" action=successful.html>
+            <div class="form">
+                <label for="myName"> *Name: </label>
+                <input type="text" id="myName" name="myName" placeholder="Enter Text" required="required">
+
+                <br>
+
+                <label for="myContact"> *Contact: </label>
+                <input type="tel" id="myContact" name="myContact" pattern="\d{3}-\d{3}-\d{3}|\d{3}-\d{4}-\d{3}"
+                    placeholder="Eg. (012-345-678)" required> <!-- XXX-XXX-XXX or XXX-XXXX-XXX   d=digit-->
+
+                <br>
+
+                <label for="myEmail"> *Email: </label>
+                <input type="email" id="myEmail" name="myEmail" placeholder="Eg. (refreshsjfx@gmail.com)"
+                    required="required">
+
+                <br>
+
+                <button type="submit"> Cash Out </button>
+
+            </div>
+        </form>
+
+    </main>
+
+
+
+    <h2>
+        <a href="tel:017-211-9891"> CONTACT </a>
+        <a href="mailto:refreshsjfx@gmail.com"> EMAIL </a>
+        <a href="https://www.instagram.com/refresh_sjfx/?igshid=ZDdkNTZiNTM%3D"> INSTAGRAM </a>
+    </h2>
+
+    <div>
+        <footer> <b> Copyright &copy; 2023 REFRESH </b> </footer>
+    </div>
+</body>
+
+</html>

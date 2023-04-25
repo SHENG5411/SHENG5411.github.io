@@ -1,0 +1,217 @@
+body {
+    background: linear-gradient(to bottom, #ECFFFD);
+}
+
+html,
+footer {
+    margin: 0;
+    /*no space between the footer and other elements on the page. */
+    padding: 0;
+    /* no space between the content and the border of the footer element. */
+    height: 100%;
+    /* footer element will always take up the full height */
+}
+
+.top-image {
+    width: 50em;
+    height: 30em;
+    position: relative;
+    top: -187px;
+    float: right;
+    padding-right: 18.16em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    font-style: italic;
+    float: right;
+    padding-right: 10.9em;
+    position: relative;
+    top: -296px;
+}
+
+nav a:link {
+    color: black;
+    text-decoration: none;
+    /* remove line*/
+}
+
+nav a:visited {
+    color: black;
+    text-decoration: none;
+    /* remove line*/
+}
+
+nav a:hover {
+    color: #CC9933;
+    ;
+    text-decoration: none;
+    /* remove line*/
+}
+
+h2 a:link {
+    color: black;
+    text-decoration: none;
+    /* remove line*/
+}
+
+h2 a:visited {
+    color: black;
+    text-decoration: none;
+    /* remove line*/
+}
+
+h2 a:hover {
+    color: #CC9933;
+    text-decoration: none;
+    /* remove line*/
+}
+
+
+main {
+    float: right;
+    padding-right: 11.7em;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -290px;
+    right: -0.7em;
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-style: normal;
+    font-family: cursive;
+    font-size: 42px;
+    padding-right: -2.5em;
+    position: relative;
+    bottom: 31px;
+    right: -2.5em;
+    text-align: justify;
+}
+
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: -1005px;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    display: flex;
+    gap: 55px;
+    position: relative;
+    right: -4.5em;
+}
+
+
+div a:link {
+    color: black;
+    text-decoration: none;
+    /* remove line*/
+    padding-right: 60px;
+}
+
+div a:visited {
+    color: black;
+    text-decoration: none;
+    /* remove line*/
+}
+
+div a:hover {
+    color: #CC9933;
+    text-decoration: none;
+    /* remove line*/
+}
+
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: -975px;
+    font-size: 32px;
+    font-style: oblique;
+    position: relative;
+    right: -18.5em;
+}
+
+/* CSS FOR succesful.html */
+#gif3 {
+    position: relative;
+    top: -277px;
+    right: 25.2em;
+    width: 10px;
+}
+
+/* Class for gif + text */
+.gifText {
+    position: relative;
+    right: 3.6em;
+}
+
+#successText h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    position: relative;
+    right: -2.32em;
+    bottom: -2px;
+}
+
+a h1 {
+    font-family: cursive;
+    font-style: oblique;
+}
+
+.Text h1 {
+    position: relative;
+    bottom: 16px;
+}
+
+#shopText h1 {
+    position: relative;
+    bottom: -5px;
+}
+
+/* Table CSS */
+table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 110%;
+	border-spacing: 0;
+	background-color: #FFFCCC;
+    position: relative;
+    top: -248px;
+    right: 17.7em;
+    border-collapse: collapse;
+    border-width: 1px;
+}
+
+th {
+	padding: 9px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid black;  /* create all line for table */
+    text-align: center;
+}
+
+td {
+	padding: 9px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid black;  /* create all line for table */
+    text-align: justify;
+}
+
+tr:nth-of-type(odd) {
+	background-color: #D2B48C;
+}
+

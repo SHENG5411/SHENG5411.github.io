@@ -1,0 +1,177 @@
+body {
+    background: linear-gradient(to bottom, #ECFFFD);
+}
+
+html,
+footer {
+    margin: 0;
+    /*no space between the footer and other elements on the page. */
+    padding: 0;
+    /* no space between the content and the border of the footer element. */
+    height: 100%;
+    /* footer element will always take up the full height */
+}
+
+.top-image {
+    width: 50em;
+    height: 30em;
+    position: relative;
+    top: -187px;
+    float: right;
+    padding-right: 18.16em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    font-style: italic;
+    float: right;
+    padding-right: 10.9em;
+    position: relative;
+    top: -296px;
+}
+
+nav a:link {
+    color: black;
+    text-decoration: none;
+    /* remove line*/
+}
+
+nav a:visited {
+    color: black;
+    text-decoration: none;
+    /* remove line*/
+}
+
+nav a:hover {
+    color: #CC9933;
+    ;
+    text-decoration: none;
+    /* remove line*/
+}
+
+h2 a:link {
+    color: black;
+    text-decoration: none;
+    /* remove line*/
+}
+
+h2 a:visited {
+    color: black;
+    text-decoration: none;
+    /* remove line*/
+}
+
+h2 a:hover {
+    color: #CC9933;
+    text-decoration: none;
+    /* remove line*/
+}
+
+
+main {
+    float: right;
+    padding-right: 11.7em;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -277px;
+    right: 2.5em
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 40px;
+    padding-right: 0.3em;
+    position: relative;
+    bottom: -50px;
+}
+
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: -3000px;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    display: flex;
+    gap: 55px;
+    position: relative;
+    right: -4.5em;
+} 
+
+
+div a:link {
+    color: black;
+    text-decoration: none;
+    /* remove line*/
+    padding-right: 60px;
+}
+
+div a:visited {
+    color: black;
+    text-decoration: none;
+    /* remove line*/
+}
+
+div a:hover {
+    color: #CC9933;
+    text-decoration: none;
+    /* remove line*/
+}
+
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: -2970px;
+    font-size: 32px;
+    font-style: oblique;
+    position: relative;
+    right: -18.5em;
+}
+
+/* CSS for CLOTHES */
+
+.column {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* repeat three colums */
+    grid-template-rows: 4;
+    grid-gap: 80px;
+    /* space between images */
+}
+
+.row {
+    height: 2000px;
+    /* set a fixed height for the rows */
+}
+
+.row img {
+    width: 130%;
+    height: 470px;
+    margin-left: 40%;
+    /* left leave how many space */
+}
+
+
+.row h1 {
+    top: -30px;
+    text-align: left;
+    font-style: normal;
+    right: -6.8em;
+    justify-content: space-evenly;
+}
+
+
